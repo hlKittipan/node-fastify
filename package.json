@@ -1,0 +1,25 @@
+{
+  "name": "node-fastify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon ./server.js",
+    "start": "node ./server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^0.23.0",
+    "boom": "^7.3.0",
+    "dotenv": "^10.0.0",
+    "fastify": "^3.22.0",
+    "fastify-swagger": "^4.12.4",
+    "lodash": "^4.17.21",
+    "luxon": "^2.0.2",
+    "mongoose": "^6.0.11",
+    "mongoose-timestamp": "^0.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
